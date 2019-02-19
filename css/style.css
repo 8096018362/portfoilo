@@ -1,0 +1,86 @@
+
+.header.active {
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    border-bottom: 1px solid black;
+    background-color:black
+}
+.header {
+    padding: 9px;
+    border-bottom: 1px solid black;
+    background-color:black;
+    color: black;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
+
+.sub-hdng{
+    text-align: center
+}
+
+.list--devices {
+    display: table;
+    width: 100%;
+}
+.list {
+    text-align: center;
+    margin: 0 -15px;
+}
+
+.list--devices .list__item {
+    vertical-align: bottom;
+}
+.list__item {
+    padding: 0 15px;
+    display: table-cell;
+}
+.list--devices .img-wrap {
+    margin-bottom: 40px;
+}
+
+.list--devices .img {
+    vertical-align: top;
+}
+.list--devices .title {
+    font: 24px "Radikal", Helvetica, Arial, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.technologies{
+    background-color: black;
+    color: white
+}
+
+.section__heading{
+text-align: center;
+color: white;
+padding: 4px;
+}
+.section__intro{
+    font: 20px "BrandonText", Helvetica, Arial, sans-serif;
+    opacity: 0.8;
+    margin: 0 auto;
+    max-width: 790px;
+}
+.section__title{
+margin: 0 auto 40px;
+font-size: 66px
+}
